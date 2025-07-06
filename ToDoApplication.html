@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo Application</title>
+  <link rel="icon" href="https://res.cloudinary.com/don6xt1fg/image/upload/v1751012192/7692809_jbzsye.png">
+  <link rel="stylesheet" href="TodoApplication.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/600729f898.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="todos-heading">Todos</h1>
+                </div>
+                <div class="col-12">
+                    <h1 class="createTask-heading"><span class="special-heading">Create</span> Task</h1>
+                    <input id="userInput" class="inputElement" placeholder="What needs to be done?" />
+                    <br/>
+                    <button id="addBtn" class="button">Add</button>
+                    <h1 class="createTask-heading"><span class="special-heading">My</span> Tasks</h1>
+                    <ul id="todosContainer" class="todos-container">
+                    </ul>
+                    <button id="saveBtn" class="button">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="TodoApplication.js"></script>
+</body>
+</html>
