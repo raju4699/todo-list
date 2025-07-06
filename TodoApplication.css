@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container{
+    height: 100vh;
+}
+.todos-heading{
+    font-family: "Source Sans Pro";
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.createTask-heading{
+    font-family: "Source Sans Pro";
+    font-size: 28px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.special-heading{
+    font-family: "Source Sans Pro";
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.inputElement{
+    width: 70%;
+    height: 50px;
+    border-radius: 12px;
+    border-color: #e4e7eb;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 18px;
+    padding: 12px;
+    padding-top: 10px;
+}
+.button{
+    color: white;
+    font-size: 16px;
+    height: 35px;
+    width: 80px;
+    border-radius: 6px;
+    border-width: 0px;
+    background-color: #4c63b6;
+    margin-bottom: 48px;
+}
+.todoElement{
+    list-style-type: none;
+}
+.checkboxElement{
+    height: 20px;
+    width: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+.labelContainer{
+    width: 100%;
+    background-color: #e6f6ff;
+    border-color: #096f92;
+    border-width: 0px;
+    border-left-width: 4px;
+    border-style: solid;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    padding: 12px;
+}
+.delete-icon{
+    font-size: 16px;
+    padding: 4px;
+    margin-top: 3px;
+}
+.completed{
+    text-decoration: line-through;
+}
