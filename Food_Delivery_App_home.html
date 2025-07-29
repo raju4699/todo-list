@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Munch Application</title>
+  <link rel="icon" href="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/food-munch-img.png">
+  <link rel="stylesheet" href="Food_Delivery_App_style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/600729f898.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary bg-light fixed-top">
+        <div class="container-fluid bg-light">
+            <a class="navbar-brand" href="#homeSection">
+                <img class="logo-image" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/food-munch-img.png"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="#whyChooseUsSection">Why Choose Us</a>
+                    <a class="nav-link" href="#menuSection">Explore Menu</a>
+                    <a class="nav-link" href="#deliveryAndPaymentSection">Delivery & Payment</a>
+                    <a class="nav-link" href="#followUsSection">Follow Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="homeSection" class="bg-container d-flex flex-column justify-content-center text-center">
+        <div>
+            <h1 class="home-main-heading mb-3">Get Delicious Food Anytime</h1>
+            <p class="home-sub-heading mb-4">Eat Smart and Healthy</p>
+            <a href="#menuSection"><button onclick="display('menuSection')" class="home-button-1 mr-2">View Menu</button></a>
+            <button class="home-button-2">Order Now</button>
+        </div>
+    </div>
+
+    <div id="whyChooseUsSection" class="why-choose-us-bg-container pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h1 class="why-choose-us-heading">Why Choose Us?</h1>
+                <p class="why-choose-us-sub-heading">We use both original recipes and classic versions of famous food items.</p>
+                <div class="why-choose-us-card mb-3">
+                    <img class="why-choose-us-card-image mb-2" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/food-serve.png"/>
+                    <h1 class="why-choose-us-card-heading mb-2">Food Service</h1>
+                    <p class="why-choose-us-card-description">Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.</p>
+                </div>
+                <div class="why-choose-us-card mb-3">
+                    <img class="why-choose-us-card-image mb-2" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/fruits-img.png"/>
+                    <h1 class="why-choose-us-card-heading mb-2">Fresh Food</h1>
+                    <p class="why-choose-us-card-description">The Fresh Food group provides fresh-cut fruits and vegetables 
+                        directly picked from our partner farms and farm houses so that
+                        you always get them tree to plate.</p>
+                </div>
+                <div class="why-choose-us-card mb-1">
+                    <img class="why-choose-us-card-image mb-2" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/offers-img.png"/>
+                    <h1 class="why-choose-us-card-heading mb-2">Best Offers</h1>
+                    <p class="why-choose-us-card-description">Food Coupons & Offers upto
+                        <span class="offers">50% OFF</span>
+                        and Exclusive Promo Codes on All Online Food Orders.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="menuSection" class="explore-menu-bg-container pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="why-choose-us-heading mb-3">Explore Menu</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="explore-menu-card-container shadow mb-3">
+                        <img class="explore-menu-card-image w-100" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png"/>
+                        <p class="explore-menu-card-heading">Non-Veg Starter</p>
+                        <a class="explore-menu-card-link">View All <i class="fa-solid fa-arrow-right icon"></i> </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="explore-menu-card-container shadow mb-3">
+                        <img class="explore-menu-card-image w-100" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-veg-starters-img.png"/>
+                        <p class="explore-menu-card-heading">Veg Starter</p>
+                        <a class="explore-menu-card-link">View All <i class="fa-solid fa-arrow-right icon"></i> </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="explore-menu-card-container shadow mb-3">
+                        <img class="explore-menu-card-image w-100" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-soup-img.png"/>
+                        <p class="explore-menu-card-heading">Soups</p>
+                        <a class="explore-menu-card-link">View All <i class="fa-solid fa-arrow-right icon"></i> </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="explore-menu-card-container shadow mb-3">
+                        <img class="explore-menu-card-image w-100" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-grilled-seafood-img.png"/>
+                        <p class="explore-menu-card-heading">Fish & Sea food</p>
+                        <a class="explore-menu-card-link">View All <i class="fa-solid fa-arrow-right icon"></i> </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="explore-menu-card-container shadow mb-3">
+                        <img class="explore-menu-card-image w-100" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-hyderabadi-biryani-img.png"/>
+                        <p class="explore-menu-card-heading">Main Course</p>
+                        <a class="explore-menu-card-link">View All <i class="fa-solid fa-arrow-right icon"></i> </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="explore-menu-card-container shadow mb-3">
+                        <img class="explore-menu-card-image w-100" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-mushroom-noodles-img.png"/>
+                        <p class="explore-menu-card-heading">Noodles</p>
+                        <a class="explore-menu-card-link">View All <i class="fa-solid fa-arrow-right icon"></i> </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="explore-menu-card-container shadow mb-3">
+                        <img class="explore-menu-card-image w-100" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-gluten-img.png"/>
+                        <p class="explore-menu-card-heading">Salads</p>
+                        <a class="explore-menu-card-link">View All <i class="fa-solid fa-arrow-right icon"></i> </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 ">
+                        <div class="explore-menu-card-container shadow mb-3">
+                        <img class="explore-menu-card-image w-100" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/em-coffee-bourbon-img.png"/>
+                        <p class="explore-menu-card-heading">Deserts</p>
+                        <a class="explore-menu-card-link">View All <i class="fa-solid fa-arrow-right icon"></i> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="healthyFoodSection" class="healthy-food-bg-container pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="text-center col-12 col-md-5">
+                    <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/healthy-food-plate-img.png"/>
+                </div>
+                <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+                    <div>
+                        <h1 class="why-choose-us-heading mb-3">Fresh, Healthy, Organic, Delicious Fruits</h1>
+                        <p class="healthy-food-description mb-4">
+                            Say no to harmful chemicals and go fully organic with our range of
+                            fresh fruits and veggies. Pamper your body and your senses with
+                            the true and unadulterated gifts from mother nature. with the true
+                            and unadulterated gifts from mother nature.
+                        </p>
+                        <button class="home-button-1 mb-3">Watch Video</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="deliveryAndPaymentSection" class="delivery-payment-bg-container pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 order-md-1 text-center">
+                    <img class="delivery-payment-image" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/delivery-payment-section-img.png"/>
+                </div>
+                <div class="col-12 col-md-7 order-md-0">
+                    <div>
+                        <h1 class="why-choose-us-heading mb-3">Delivery and Payment</h1>
+                        <p class="healthy-food-description mb-4">
+                            Enjoy hassle-free payment with the plenitude of payment options
+                            available for you. Get live tracking and locate your food on a
+                            live map. It's quite a sight to see your food arrive to your door.
+                            Plus, you get a 5% discount on every order every time you pay
+                            online.
+                        </p>
+                        <button class="home-button-1 mb-3">Order Now</button>
+                        <div class="mt-3">
+                            <img
+                                src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/visa-card-img.png"
+                                class="card-image"
+                            />
+                            <img
+                                src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/master-card-img.png"
+                                class="card-image"
+                            />
+                            <img
+                                src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/paypal-card-img.png"
+                                class="card-image"
+                            />
+                            <img
+                                src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/american-express-img.png"
+                                class="card-image"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="thankingSection" class="thanking-bg-container pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+                    <h1 class="why-choose-us-heading">Thank you for being a valuable customer for us.</h1>
+                    <p class="healthy-food-description">We have a suprise gift for you</p>
+                    <div class="d-md-none mb-4">
+                        <img class="thanking-image" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png"/>
+                    </div>
+                    <div>
+                        <button class="home-button-1">Reedem Gift</button>
+                    </div>
+                </div>
+                <div class="d-none d-md-block col-md-5 text-center">
+                    <img class="thanking-image" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="followUsSection" class="follow-us-bg-container pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="why-choose-us-heading mb-4">Follow Us</h1>
+                    <div class="d-flex flex-row justify-content-center mb-5">
+                        <div class="icon-container">
+                            <i class="follow-us-icon fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="icon-container">
+                            <i class="follow-us-icon fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="icon-container">
+                            <i class="follow-us-icon fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bg-container pt-5 pb-5 d-flex flex-row justify-content-center">
+            <div class="text-center">
+                <img class="logo-image" src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/food-munch-img.png"/>
+                <p class="footer-email mt-4">orderfood@foodmunch.com</p>
+                <p class="footer-address mt-2">123 Ayur Vigyan Nagar, New Delhi, India.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
