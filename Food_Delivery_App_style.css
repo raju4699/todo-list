@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body{
+    margin: 0px;
+}
+.logo-image{
+    height: 55px;
+    width: 70px;
+}
+.bg-container{
+    background-image: url('https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png');
+    height: 100vh;
+    background-size: cover;
+}
+.home-main-heading{
+    color: white;
+    font-family: Caveat;
+    font-size: 48px;
+    font-weight: 700;
+}
+.home-sub-heading{
+    color: white;
+    font-family: Caveat;
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-button-1{
+    height: 45px;
+    width: 115px;
+    font-size: 13px;
+    color: white;
+    background-color: #d0b200;
+    border-width: 0px;
+    border-radius: 12px;
+}
+.home-button-2{
+    height: 45px;
+    width: 115px;
+    font-size: 13px;
+    color: #d0b200;
+    background-color: transparent;
+    border-color: #d0b200;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 12px;
+}
+.why-choose-us-bg-container{
+    background-color: #f9fbfe;
+}
+.why-choose-us-heading{
+    color: #183b56;
+    font-family: 'Source Sans Pro';
+    font-size: 30px;
+    font-weight: 700;
+}
+.why-choose-us-sub-heading{
+    color: #5a7184;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 500;
+}
+.why-choose-us-card{
+    text-align: center;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e5eaf4;
+    border-radius: 12px;
+    padding: 12px;
+    padding-bottom: 8px;
+}
+.why-choose-us-card-image{
+    height: 75px;
+    width: 70px;
+}
+.why-choose-us-card-heading{
+    color: #323f4b;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    font-weight: 600;
+}
+.why-choose-us-card-description{
+    color: #7b8794;
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: 500;
+}
+.offers{
+    color: black;
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+.explore-menu-bg-container{
+    background-color: white;
+}
+.explore-menu-card-container{
+    border-radius: 14px;
+    padding: 18px;
+}
+.explore-menu-card-image{
+    border-radius: 14px;
+}
+.explore-menu-card-heading{
+    color: #323f4b;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 4px;
+}
+.explore-menu-card-link{
+    color: #d0b200;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 4px;
+}
+.icon{
+    margin-left: 4px;
+    font-size: 13px;
+}
+.healthy-food-bg-container{
+    background-color: #f9fbfe;
+}
+.healthy-food-description{
+    color: #5a7184;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 500;
+}
+.delivery-payment-bg-container{
+    background-color: white;
+}
+.delivery-payment-image{
+    height: 270px;
+}
+.card-image{
+    height: 60px;
+}
+.thanking-bg-container{
+    background-color: #faf7e8;
+}
+.thanking-image{
+    height: 300px;
+}
+.follow-us-bg-container{
+    background-color: white;
+}
+.icon-container{
+    background-color: #faf7e8;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    padding-top: 28px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 18px;
+    margin: 15px;
+}
+.follow-us-icon{
+    color: #d0b200;
+    font-size: 20px;
+}
+.footer-bg-container{
+    background-color: #0d2436;
+}
+.footer-email{
+    color: #959ead;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 800;
+}
+.footer-address{
+    color: #959ead;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    font-weight: 500;
+}
