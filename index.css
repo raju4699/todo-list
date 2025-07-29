@@ -1,5 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.bg-container{
+    background-image: url('https://res.cloudinary.com/don6xt1fg/image/upload/v1753792544/Professional_Background_Linkedin_r6k2ma.jpg');
+    height: 100vh;
+    background-size: cover;
+    padding: 42px;
+}
+.card-container{
+    padding: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
 .heading{
     font-family: Caveat;
     font-size: 42px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.card{
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+    width: 100%;
+}
+.project-container{
+    display: flex;
+    justify-content: center;
+    border: 2px solid lightgray;
+    padding: 12px;
+}
+.first{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.last{
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.image{
+    width: 40px;
+    margin-right: 24px;
+}
+.link{
+    color: black;
+    font-family: "Source Sans Pro";
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
 }
